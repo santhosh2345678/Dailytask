@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1>deep copy</h1>
+<script>
+var x=8;
+var y=x;
+x=-3;
+console.log(x,y);//output -3 8
+</script>
+<h1>shallow copy</h1>
+<script>
+let a={a:1,b:2}
+let b=a;
+a.c=3;
+console.log(a,b);//output {a: 1, b: 2, c: 3}
+</script>
+</body>
+</html>
